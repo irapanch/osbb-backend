@@ -1,0 +1,2012 @@
+[{
+  "_id": 1,
+  "residents": [
+    {
+      "name": "Іван Іванов",
+      "owner": true
+    },
+    {
+      "name": "Марія Іванова",
+      "owner": false
+    }
+  ],
+  "balance": 1500.5
+},
+{
+  "_id": 2,
+  "residents": [
+    {
+      "name": "Петро Петренко",
+      "owner": true
+    },
+    {
+      "name": "Ольга Петренко",
+      "owner": false
+    }
+  ],
+  "balance": -2300.75
+},
+{
+  "_id": 3,
+  "residents": [
+    {
+      "name": "Андрій Сидоренко",
+      "owner": true
+    }
+  ],
+  "balance": 980
+},
+{
+  "_id": 4,
+  "residents": [
+    {
+      "name": "Наталія Коваленко",
+      "owner": true
+    },
+    {
+      "name": "Василь Коваленко",
+      "owner": false
+    },
+    {
+      "name": "Юлія Коваленко",
+      "owner": false
+    }
+  ],
+  "balance": 3100.25
+},
+{
+  "_id": 5,
+  "residents": [
+    {
+      "name": "Олександр Гриценко",
+      "owner": true
+    }
+  ],
+  "balance": 670
+},
+{
+  "_id": 6,
+  "residents": [
+    {
+      "name": "Світлана Мороз",
+      "owner": true
+    },
+    {
+      "name": "Дмитро Мороз",
+      "owner": false
+    }
+  ],
+  "balance": 2000
+},
+{
+  "_id": 7,
+  "residents": [
+    {
+      "name": "Богдан Ткаченко",
+      "owner": true
+    }
+  ],
+  "balance": 1450.75
+},
+{
+  "_id": 8,
+  "residents": [
+    {
+      "name": "Олена Романенко",
+      "owner": true
+    },
+    {
+      "name": "Ігор Романенко",
+      "owner": false
+    }
+  ],
+  "balance": -2750.5
+},
+{
+  "_id": 9,
+  "residents": [
+    {
+      "name": "Максим Лисенко",
+      "owner": true
+    }
+  ],
+  "balance": 890.4
+},
+{
+  "_id": 10,
+  "residents": [
+    {
+      "name": "Катерина Шевченко",
+      "owner": true
+    },
+    {
+      "name": "Олексій Шевченко",
+      "owner": false
+    }
+  ],
+  "balance": -3600.8
+},
+{
+  "_id": 11,
+  "residents": [
+    {
+      "name": "Оксана Верещук",
+      "owner": true
+    },
+    {
+      "name": "Тарас Верещук",
+      "owner": false
+    }
+  ],
+  "balance": 2200.6
+},
+{
+  "_id": 12,
+  "residents": [
+    {
+      "name": "Володимир Гаврилюк",
+      "owner": true
+    }
+  ],
+  "balance": -1350.75
+},
+{
+  "_id": 13,
+  "residents": [
+    {
+      "name": "Ірина Поліщук",
+      "owner": true
+    },
+    {
+      "name": "Денис Поліщук",
+      "owner": false
+    }
+  ],
+  "balance": 2750.9
+},
+{
+  "_id": 14,
+  "residents": [
+    {
+      "name": "Юрій Костенко",
+      "owner": true
+    }
+  ],
+  "balance": 890.4
+},
+{
+  "_id": 15,
+  "residents": [
+    {
+      "name": "Олеся Мельник",
+      "owner": true
+    },
+    {
+      "name": "Ростислав Мельник",
+      "owner": false
+    }
+  ],
+  "balance": 0
+},
+{
+  "_id": 16,
+  "residents": [
+    {
+      "name": "Анатолій Зайченко",
+      "owner": true
+    }
+  ],
+  "balance": 1450.75
+},
+{
+  "_id": 17,
+  "residents": [
+    {
+      "name": "Світлана Дорошенко",
+      "owner": true
+    },
+    {
+      "name": "Максим Дорошенко",
+      "owner": false
+    }
+  ],
+  "balance": -3100.25
+},
+{
+  "_id": 18,
+  "residents": [
+    {
+      "name": "Ганна Савченко",
+      "owner": true
+    }
+  ],
+  "balance": 1200.5
+},
+{
+  "_id": 19,
+  "residents": [
+    {
+      "name": "Богдан Левченко",
+      "owner": true
+    },
+    {
+      "name": "Олена Левченко",
+      "owner": false
+    }
+  ],
+  "balance": 2400
+},
+{
+  "_id": 20,
+  "residents": [
+    {
+      "name": "Ігор Соловей",
+      "owner": true
+    }
+  ],
+  "balance": 800.3
+},
+{
+  "_id": 21,
+  "residents": [
+    {
+      "name": "Людмила Чорновіл",
+      "owner": true
+    }
+  ],
+  "balance": 1700.2
+},
+{
+  "_id": 22,
+  "residents": [
+    {
+      "name": "Олег Мельник",
+      "owner": true
+    },
+    {
+      "name": "Анна Мельник",
+      "owner": false
+    }
+  ],
+  "balance": -1800.4
+},
+{
+  "_id": 23,
+  "residents": [
+    {
+      "name": "Ірина Василенко",
+      "owner": true
+    }
+  ],
+  "balance": 750.3
+},
+{
+  "_id": 24,
+  "residents": [
+    {
+      "name": "Євген Ковальчук",
+      "owner": true
+    },
+    {
+      "name": "Марина Ковальчук",
+      "owner": false
+    }
+  ],
+  "balance": 2950.6
+},
+{
+  "_id": 25,
+  "residents": [
+    {
+      "name": "Святослав Омельченко",
+      "owner": true
+    }
+  ],
+  "balance": 1120
+},
+{
+  "_id": 26,
+  "residents": [
+    {
+      "name": "Оксана Федоренко",
+      "owner": true
+    },
+    {
+      "name": "Тарас Федоренко",
+      "owner": false
+    }
+  ],
+  "balance": 2700.9
+},
+{
+  "_id": 27,
+  "residents": [
+    {
+      "name": "Дмитро Левченко",
+      "owner": true
+    }
+  ],
+  "balance": 850.5
+},
+{
+  "_id": 28,
+  "residents": [
+    {
+      "name": "Людмила Гаврилюк",
+      "owner": true
+    },
+    {
+      "name": "Сергій Гаврилюк",
+      "owner": false
+    }
+  ],
+  "balance": -3100.75
+},
+{
+  "_id": 29,
+  "residents": [
+    {
+      "name": "Володимир Руденко",
+      "owner": true
+    }
+  ],
+  "balance": 1450.2
+},
+{
+  "_id": 30,
+  "residents": [
+    {
+      "name": "Надія Мартиненко",
+      "owner": true
+    },
+    {
+      "name": "Артем Мартиненко",
+      "owner": false
+    }
+  ],
+  "balance": 3650.3
+},
+{
+  "_id": 31,
+  "residents": [
+    {
+      "name": "Максим Дорошенко",
+      "owner": true
+    }
+  ],
+  "balance": 920.1
+},
+{
+  "_id": 32,
+  "residents": [
+    {
+      "name": "Олена Кириленко",
+      "owner": true
+    },
+    {
+      "name": "Василь Кириленко",
+      "owner": false
+    }
+  ],
+  "balance": -2750.4
+},
+{
+  "_id": 33,
+  "residents": [
+    {
+      "name": "Андрій Поліщук",
+      "owner": true
+    }
+  ],
+  "balance": 890.7
+},
+{
+  "_id": 34,
+  "residents": [
+    {
+      "name": "Юлія Тарасенко",
+      "owner": true
+    },
+    {
+      "name": "Ігор Тарасенко",
+      "owner": false
+    }
+  ],
+  "balance": 3600.5
+},
+{
+  "_id": 35,
+  "residents": [
+    {
+      "name": "Василь Сидоренко",
+      "owner": true
+    }
+  ],
+  "balance": 780
+},
+{
+  "_id": 36,
+  "residents": [
+    {
+      "name": "Ірина Дудник",
+      "owner": true
+    },
+    {
+      "name": "Олег Дудник",
+      "owner": false
+    }
+  ],
+  "balance": 4200.9
+},
+{
+  "_id": 37,
+  "residents": [
+    {
+      "name": "Ганна Паламарчук",
+      "owner": true
+    }
+  ],
+  "balance": -1520.3
+},
+{
+  "_id": 38,
+  "residents": [
+    {
+      "name": "Олексій Іванченко",
+      "owner": true
+    },
+    {
+      "name": "Катерина Іванченко",
+      "owner": false
+    }
+  ],
+  "balance": 3700.75
+},
+{
+  "_id": 39,
+  "residents": [
+    {
+      "name": "Олена Кривенко",
+      "owner": true
+    }
+  ],
+  "balance": 820.4
+},
+{
+  "_id": 40,
+  "residents": [
+    {
+      "name": "Сергій Панасенко",
+      "owner": true
+    },
+    {
+      "name": "Наталія Панасенко",
+      "owner": false
+    }
+  ],
+  "balance": -2850.6
+},
+{
+  "_id": 41,
+  "residents": [
+    {
+      "name": "Микола Олійник",
+      "owner": true
+    }
+  ],
+  "balance": 970.5
+},
+{
+  "_id": 42,
+  "residents": [
+    {
+      "name": "Тетяна Козловська",
+      "owner": true
+    },
+    {
+      "name": "Юрій Козловський",
+      "owner": false
+    }
+  ],
+  "balance": -3900.8
+},
+{
+  "_id": 43,
+  "residents": [
+    {
+      "name": "Богдан Шевченко",
+      "owner": true
+    }
+  ],
+  "balance": 910
+},
+{
+  "_id": 44,
+  "residents": [
+    {
+      "name": "Алла Степаненко",
+      "owner": true
+    },
+    {
+      "name": "Роман Степаненко",
+      "owner": false
+    }
+  ],
+  "balance": 3120.3
+},
+{
+  "_id": 45,
+  "residents": [
+    {
+      "name": "Світлана Литвин",
+      "owner": true
+    }
+  ],
+  "balance": -980.6
+},
+{
+  "_id": 46,
+  "residents": [
+    {
+      "name": "Валерій Пономаренко",
+      "owner": true
+    },
+    {
+      "name": "Марія Пономаренко",
+      "owner": false
+    }
+  ],
+  "balance": 4300.75
+},
+{
+  "_id": 47,
+  "residents": [
+    {
+      "name": "Олександр Костенко",
+      "owner": true
+    }
+  ],
+  "balance": -860.2
+},
+{
+  "_id": 48,
+  "residents": [
+    {
+      "name": "Ольга Савченко",
+      "owner": true
+    },
+    {
+      "name": "Денис Савченко",
+      "owner": false
+    }
+  ],
+  "balance": 3200.4
+},
+{
+  "_id": 49,
+  "residents": [
+    {
+      "name": "Максим Петренко",
+      "owner": true
+    }
+  ],
+  "balance": -1010.7
+},
+{
+  "_id": 50,
+  "residents": [
+    {
+      "name": "Ігор Ткач",
+      "owner": true
+    }
+  ],
+  "balance": 2750.9
+},
+{
+  "_id": 51,
+  "residents": [
+    {
+      "name": "Ірина Шевченко",
+      "owner": true
+    },
+    {
+      "name": "Тимофій Шевченко",
+      "owner": false
+    }
+  ],
+  "balance": -1250.4
+},
+{
+  "_id": 52,
+  "residents": [
+    {
+      "name": "Анна Петрова",
+      "owner": true
+    },
+    {
+      "name": "Микола Петров",
+      "owner": false
+    }
+  ],
+  "balance": 900.2
+},
+{
+  "_id": 53,
+  "residents": [
+    {
+      "name": "Дмитро Бондаренко",
+      "owner": true
+    }
+  ],
+  "balance": 1780.5
+},
+{
+  "_id": 54,
+  "residents": [
+    {
+      "name": "Тетяна Воробйова",
+      "owner": true
+    },
+    {
+      "name": "Сергій Воробйов",
+      "owner": false
+    }
+  ],
+  "balance": -2200
+},
+{
+  "_id": 55,
+  "residents": [
+    {
+      "name": "Юрій Коваль",
+      "owner": true
+    }
+  ],
+  "balance": 1350.75
+},
+{
+  "_id": 56,
+  "residents": [
+    {
+      "name": "Марина Олійник",
+      "owner": true
+    },
+    {
+      "name": "Олексій Олійник",
+      "owner": false
+    }
+  ],
+  "balance": 1750.1
+},
+{
+  "_id": 57,
+  "residents": [
+    {
+      "name": "Ігор Черненко",
+      "owner": true
+    }
+  ],
+  "balance": 920.5
+},
+{
+  "_id": 58,
+  "residents": [
+    {
+      "name": "Ольга Петренко",
+      "owner": true
+    },
+    {
+      "name": "Василь Петренко",
+      "owner": false
+    }
+  ],
+  "balance": 2100.9
+},
+{
+  "_id": 59,
+  "residents": [
+    {
+      "name": "Катерина Литвин",
+      "owner": true
+    }
+  ],
+  "balance": 750
+},
+{
+  "_id": 60,
+  "residents": [
+    {
+      "name": "Олександр Протасов",
+      "owner": true
+    },
+    {
+      "name": "Анна Протасова",
+      "owner": false
+    }
+  ],
+  "balance": -1300.8
+},
+{
+  "_id": 61,
+  "residents": [
+    {
+      "name": "Богдан Супрун",
+      "owner": true
+    }
+  ],
+  "balance": 1755.45
+},
+{
+  "_id": 62,
+  "residents": [
+    {
+      "name": "Софія Іванова",
+      "owner": true
+    },
+    {
+      "name": "Андрій Іванов",
+      "owner": false
+    }
+  ],
+  "balance": -820.5
+},
+{
+  "_id": 63,
+  "residents": [
+    {
+      "name": "Марія Левченко",
+      "owner": true
+    }
+  ],
+  "balance": 1500.3
+},
+{
+  "_id": 64,
+  "residents": [
+    {
+      "name": "Максим Чернов",
+      "owner": true
+    },
+    {
+      "name": "Тетяна Чернова",
+      "owner": false
+    }
+  ],
+  "balance": 2600.6
+},
+{
+  "_id": 65,
+  "residents": [
+    {
+      "name": "Наталія Шмідт",
+      "owner": true
+    }
+  ],
+  "balance": -1100.2
+},
+{
+  "_id": 66,
+  "residents": [
+    {
+      "name": "Анатолій Козак",
+      "owner": true
+    },
+    {
+      "name": "Ірина Козак",
+      "owner": false
+    }
+  ],
+  "balance": 1900
+},
+{
+  "_id": 67,
+  "residents": [
+    {
+      "name": "Юлія Хмель",
+      "owner": true
+    }
+  ],
+  "balance": -1230.75
+},
+{
+  "_id": 68,
+  "residents": [
+    {
+      "name": "Олексій Яковенко",
+      "owner": true
+    }
+  ],
+  "balance": 2050.5
+},
+{
+  "_id": 69,
+  "residents": [
+    {
+      "name": "Олена Мороз",
+      "owner": true
+    },
+    {
+      "name": "Віктор Мороз",
+      "owner": false
+    }
+  ],
+  "balance": 1220.45
+},
+{
+  "_id": 70,
+  "residents": [
+    {
+      "name": "Михайло Тарасенко",
+      "owner": true
+    }
+  ],
+  "balance": 830
+},
+{
+  "_id": 71,
+  "residents": [
+    {
+      "name": "Ірина Соломко",
+      "owner": true
+    },
+    {
+      "name": "Дмитро Соломко",
+      "owner": false
+    }
+  ],
+  "balance": 2300.8
+},
+{
+  "_id": 72,
+  "residents": [
+    {
+      "name": "Валентина Рябко",
+      "owner": true
+    }
+  ],
+  "balance": 910.2
+},
+{
+  "_id": 73,
+  "residents": [
+    {
+      "name": "Тимур Ніколаєнко",
+      "owner": true
+    },
+    {
+      "name": "Оксана Ніколаєнко",
+      "owner": false
+    }
+  ],
+  "balance": 1450
+},
+{
+  "_id": 74,
+  "residents": [
+    {
+      "name": "Владислав Кривенко",
+      "owner": true
+    }
+  ],
+  "balance": 1750
+},
+{
+  "_id": 75,
+  "residents": [
+    {
+      "name": "Аліна Голуб",
+      "owner": true
+    }
+  ],
+  "balance": 680.9
+},
+{
+  "_id": 76,
+  "residents": [
+    {
+      "name": "Роман Гончар",
+      "owner": true
+    },
+    {
+      "name": "Тетяна Гончар",
+      "owner": false
+    }
+  ],
+  "balance": 2400.2
+},
+{
+  "_id": 77,
+  "residents": [
+    {
+      "name": "Юрій Шаповал",
+      "owner": true
+    }
+  ],
+  "balance": 1550.5
+},
+{
+  "_id": 78,
+  "residents": [
+    {
+      "name": "Ольга Яцкова",
+      "owner": true
+    }
+  ],
+  "balance": 860.75
+},
+{
+  "_id": 79,
+  "residents": [
+    {
+      "name": "Віталій Жуков",
+      "owner": true
+    }
+  ],
+  "balance": 3200.1
+},
+{
+  "_id": 80,
+  "residents": [
+    {
+      "name": "Олександр Гнатюк",
+      "owner": true
+    },
+    {
+      "name": "Наталія Гнатюк",
+      "owner": false
+    }
+  ],
+  "balance": 1150
+},
+{
+  "_id": 81,
+  "residents": [
+    {
+      "name": "Денис Бойко",
+      "owner": true
+    }
+  ],
+  "balance": 1100.6
+},
+{
+  "_id": 82,
+  "residents": [
+    {
+      "name": "Марина Мельник",
+      "owner": true
+    }
+  ],
+  "balance": 1270.3
+},
+{
+  "_id": 83,
+  "residents": [
+    {
+      "name": "Василь Гребенюк",
+      "owner": true
+    },
+    {
+      "name": "Софія Гребенюк",
+      "owner": false
+    }
+  ],
+  "balance": 1650
+},
+{
+  "_id": 84,
+  "residents": [
+    {
+      "name": "Тимур Мусієнко",
+      "owner": true
+    }
+  ],
+  "balance": 1400.4
+},
+{
+  "_id": 85,
+  "residents": [
+    {
+      "name": "Галина Тищенко",
+      "owner": true
+    }
+  ],
+  "balance": 880.9
+},
+{
+  "_id": 86,
+  "residents": [
+    {
+      "name": "Сергій Коваленко",
+      "owner": true
+    }
+  ],
+  "balance": 1890.6
+},
+{
+  "_id": 87,
+  "residents": [
+    {
+      "name": "Владислава Руденко",
+      "owner": true
+    }
+  ],
+  "balance": 2050.5
+},
+{
+  "_id": 88,
+  "residents": [
+    {
+      "name": "Юрій Федоренко",
+      "owner": true
+    }
+  ],
+  "balance": 940.7
+},
+{
+  "_id": 89,
+  "residents": [
+    {
+      "name": "Тетяна Пасічник",
+      "owner": true
+    }
+  ],
+  "balance": 2000.2
+},
+{
+  "_id": 90,
+  "residents": [
+    {
+      "name": "Вікторія Камінська",
+      "owner": true
+    }
+  ],
+  "balance": -3100
+},
+{
+  "_id": 91,
+  "residents": [
+    {
+      "name": "Григорій Андрєєв",
+      "owner": true
+    }
+  ],
+  "balance": 1360.9
+},
+{
+  "_id": 92,
+  "residents": [
+    {
+      "name": "Світлана Яценко",
+      "owner": true
+    }
+  ],
+  "balance": 1120.8
+},
+{
+  "_id": 93,
+  "residents": [
+    {
+      "name": "Дмитро Ковальчук",
+      "owner": true
+    }
+  ],
+  "balance": 1240.6
+},
+{
+  "_id": 94,
+  "residents": [
+    {
+      "name": "Анастасія Гусак",
+      "owner": true
+    }
+  ],
+  "balance": -2300
+},
+{
+  "_id": 95,
+  "residents": [
+    {
+      "name": "Ірина Бондар",
+      "owner": true
+    }
+  ],
+  "balance": 880.75
+},
+{
+  "_id": 96,
+  "residents": [
+    {
+      "name": "Дмитро Мельник",
+      "owner": true
+    }
+  ],
+  "balance": 1620.5
+},
+{
+  "_id": 97,
+  "residents": [
+    {
+      "name": "Віталій Лук'яненко",
+      "owner": true
+    }
+  ],
+  "balance": 1050.6
+},
+{
+  "_id": 98,
+  "residents": [
+    {
+      "name": "Оксана Федорова",
+      "owner": true
+    }
+  ],
+  "balance": 1350
+},
+{
+  "_id": 99,
+  "residents": [
+    {
+      "name": "Олександр Ситник",
+      "owner": true
+    }
+  ],
+  "balance": 950.2
+},
+{
+  "_id": 100,
+  "residents": [
+    {
+      "name": "Ірина Григоренко",
+      "owner": true
+    }
+  ],
+  "balance": 1740.5
+},
+{
+  "_id": 101,
+  "residents": [
+    {
+      "name": "Ірина Кузнецова",
+      "owner": true
+    },
+    {
+      "name": "Тарас Кузнецов",
+      "owner": false
+    }
+  ],
+  "balance": 2900.45
+},
+{
+  "_id": 102,
+  "residents": [
+    {
+      "name": "Анатолій Воробйов",
+      "owner": true
+    }
+  ],
+  "balance": 1200.3
+},
+{
+  "_id": 103,
+  "residents": [
+    {
+      "name": "Марина Соловйова",
+      "owner": true
+    },
+    {
+      "name": "Дмитро Соловйов",
+      "owner": false
+    }
+  ],
+  "balance": 1750.5
+},
+{
+  "_id": 104,
+  "residents": [
+    {
+      "name": "Валентин Левченко",
+      "owner": true
+    }
+  ],
+  "balance": 2100
+},
+{
+  "_id": 105,
+  "residents": [
+    {
+      "name": "Тетяна Бондаренко",
+      "owner": true
+    },
+    {
+      "name": "Віктор Бондаренко",
+      "owner": false
+    }
+  ],
+  "balance": 1850.75
+},
+{
+  "_id": 106,
+  "residents": [
+    {
+      "name": "Володимир Середа",
+      "owner": true
+    }
+  ],
+  "balance": 4000.6
+},
+{
+  "_id": 107,
+  "residents": [
+    {
+      "name": "Оксана Іванова",
+      "owner": true
+    },
+    {
+      "name": "Микола Іванов",
+      "owner": false
+    }
+  ],
+  "balance": 2200.4
+},
+{
+  "_id": 108,
+  "residents": [
+    {
+      "name": "Ніна Павленко",
+      "owner": true
+    }
+  ],
+  "balance": 1350
+},
+{
+  "_id": 109,
+  "residents": [
+    {
+      "name": "Юрій Скидан",
+      "owner": true
+    },
+    {
+      "name": "Аліна Скидан",
+      "owner": false
+    }
+  ],
+  "balance": -500.8
+},
+{
+  "_id": 110,
+  "residents": [
+    {
+      "name": "Олег Кучеренко",
+      "owner": true
+    }
+  ],
+  "balance": 980.5
+},
+{
+  "_id": 111,
+  "residents": [
+    {
+      "name": "Ігор Федоренко",
+      "owner": true
+    },
+    {
+      "name": "Софія Федоренко",
+      "owner": false
+    }
+  ],
+  "balance": 3100
+},
+{
+  "_id": 112,
+  "residents": [
+    {
+      "name": "Ярослав Шевченко",
+      "owner": true
+    }
+  ],
+  "balance": 4300.3
+},
+{
+  "_id": 113,
+  "residents": [
+    {
+      "name": "Вікторія Петрів",
+      "owner": true
+    },
+    {
+      "name": "Максим Петрів",
+      "owner": false
+    }
+  ],
+  "balance": -2500.1
+},
+{
+  "_id": 114,
+  "residents": [
+    {
+      "name": "Микита Коваленко",
+      "owner": true
+    }
+  ],
+  "balance": 5600.2
+},
+{
+  "_id": 115,
+  "residents": [
+    {
+      "name": "Альона Харченко",
+      "owner": true
+    },
+    {
+      "name": "Юрій Харченко",
+      "owner": false
+    }
+  ],
+  "balance": -100.55
+},
+{
+  "_id": 116,
+  "residents": [
+    {
+      "name": "Дмитро Пономаренко",
+      "owner": true
+    }
+  ],
+  "balance": 1150.4
+},
+{
+  "_id": 117,
+  "residents": [
+    {
+      "name": "Катерина Мельник",
+      "owner": true
+    }
+  ],
+  "balance": 1300.6
+},
+{
+  "_id": 118,
+  "residents": [
+    {
+      "name": "Арсеній Дорошенко",
+      "owner": true
+    },
+    {
+      "name": "Тетяна Дорошенко",
+      "owner": false
+    }
+  ],
+  "balance": -2000.8
+},
+{
+  "_id": 119,
+  "residents": [
+    {
+      "name": "Ірина Сташенко",
+      "owner": true
+    }
+  ],
+  "balance": 2150.9
+},
+{
+  "_id": 120,
+  "residents": [
+    {
+      "name": "Леонід Степаненко",
+      "owner": true
+    },
+    {
+      "name": "Ангеліна Степаненко",
+      "owner": false
+    }
+  ],
+  "balance": -3750.3
+},
+{
+  "_id": 121,
+  "residents": [
+    {
+      "name": "Сергій Лавринович",
+      "owner": true
+    }
+  ],
+  "balance": 4200.75
+},
+{
+  "_id": 122,
+  "residents": [
+    {
+      "name": "Ольга Чорна",
+      "owner": true
+    },
+    {
+      "name": "Віталій Чорний",
+      "owner": false
+    }
+  ],
+  "balance": 1500.6
+},
+{
+  "_id": 123,
+  "residents": [
+    {
+      "name": "Микола Савченко",
+      "owner": true
+    }
+  ],
+  "balance": 2200.8
+},
+{
+  "_id": 124,
+  "residents": [
+    {
+      "name": "Аліна Шевченко",
+      "owner": true
+    },
+    {
+      "name": "Роман Шевченко",
+      "owner": false
+    }
+  ],
+  "balance": -7000
+},
+{
+  "_id": 125,
+  "residents": [
+    {
+      "name": "Юлія Карпенко",
+      "owner": true
+    }
+  ],
+  "balance": 2800.9
+},
+{
+  "_id": 126,
+  "residents": [
+    {
+      "name": "Тимур Мартиненко",
+      "owner": true
+    },
+    {
+      "name": "Наталія Мартиненко",
+      "owner": false
+    }
+  ],
+  "balance": 100.4
+},
+{
+  "_id": 127,
+  "residents": [
+    {
+      "name": "Тимофій Саприкін",
+      "owner": true
+    }
+  ],
+  "balance": 3200
+},
+{
+  "_id": 128,
+  "residents": [
+    {
+      "name": "Анна Шевченко",
+      "owner": true
+    }
+  ],
+  "balance": 2700.5
+},
+{
+  "_id": 129,
+  "residents": [
+    {
+      "name": "Галина Ткаченко",
+      "owner": true
+    },
+    {
+      "name": "Володимир Ткаченко",
+      "owner": false
+    }
+  ],
+  "balance": 30.9
+},
+{
+  "_id": 130,
+  "residents": [
+    {
+      "name": "Андрій Петренко",
+      "owner": true
+    }
+  ],
+  "balance": 890.6
+},
+{
+  "_id": 131,
+  "residents": [
+    {
+      "name": "Ксенія Лисенко",
+      "owner": true
+    },
+    {
+      "name": "Максим Лисенко",
+      "owner": false
+    }
+  ],
+  "balance": 5800.7
+},
+{
+  "_id": 132,
+  "residents": [
+    {
+      "name": "Людмила Соловйова",
+      "owner": true
+    }
+  ],
+  "balance": 3400.3
+},
+{
+  "_id": 133,
+  "residents": [
+    {
+      "name": "Віталій Кириченко",
+      "owner": true
+    }
+  ],
+  "balance": -4900.25
+},
+{
+  "_id": 134,
+  "residents": [
+    {
+      "name": "Софія Орлова",
+      "owner": true
+    },
+    {
+      "name": "Максим Орлов",
+      "owner": false
+    }
+  ],
+  "balance": -2750.1
+},
+{
+  "_id": 135,
+  "residents": [
+    {
+      "name": "Іван Гудович",
+      "owner": true
+    }
+  ],
+  "balance": 2800.9
+},
+{
+  "_id": 136,
+  "residents": [
+    {
+      "name": "Валерія Климова",
+      "owner": true
+    }
+  ],
+  "balance": 3300.8
+},
+{
+  "_id": 137,
+  "residents": [
+    {
+      "name": "Кирило Бондаренко",
+      "owner": true
+    }
+  ],
+  "balance": -3800.5
+},
+{
+  "_id": 138,
+  "residents": [
+    {
+      "name": "Тимур Павлюк",
+      "owner": true
+    },
+    {
+      "name": "Дарина Павлюк",
+      "owner": false
+    }
+  ],
+  "balance": 3700.75
+},
+{
+  "_id": 139,
+  "residents": [
+    {
+      "name": "Юлія Смирнова",
+      "owner": true
+    }
+  ],
+  "balance": 1600.9
+},
+{
+  "_id": 140,
+  "residents": [
+    {
+      "name": "Роман Курбанов",
+      "owner": true
+    }
+  ],
+  "balance": 20.6
+},
+{
+  "_id": 141,
+  "residents": [
+    {
+      "name": "Олександр Шмідт",
+      "owner": true
+    },
+    {
+      "name": "Тетяна Шмідт",
+      "owner": false
+    }
+  ],
+  "balance": 2200.3
+},
+{
+  "_id": 142,
+  "residents": [
+    {
+      "name": "Павло Чернов",
+      "owner": true
+    }
+  ],
+  "balance": 20.4
+},
+{
+  "_id": 143,
+  "residents": [
+    {
+      "name": "Ірина Черненко",
+      "owner": true
+    }
+  ],
+  "balance": 1800.5
+},
+{
+  "_id": 144,
+  "residents": [
+    {
+      "name": "Ігор Волков",
+      "owner": true
+    },
+    {
+      "name": "Олена Волкова",
+      "owner": false
+    }
+  ],
+  "balance": 290
+},
+{
+  "_id": 145,
+  "residents": [
+    {
+      "name": "Григорій Зінченко",
+      "owner": true
+    }
+  ],
+  "balance": 3200.1
+},
+{
+  "_id": 146,
+  "residents": [
+    {
+      "name": "Наталія Войтенко",
+      "owner": true
+    }
+  ],
+  "balance": 4100.6
+},
+{
+  "_id": 147,
+  "residents": [
+    {
+      "name": "Петро Литовченко",
+      "owner": true
+    },
+    {
+      "name": "Анна Литовченко",
+      "owner": false
+    }
+  ],
+  "balance": 0
+},
+{
+  "_id": 148,
+  "residents": [
+    {
+      "name": "Марина Свиридова",
+      "owner": true
+    }
+  ],
+  "balance": 5000.1
+},
+{
+  "_id": 149,
+  "residents": [
+    {
+      "name": "Ярослав Руденко",
+      "owner": true
+    }
+  ],
+  "balance": 4800.75
+},
+{
+  "_id": 150,
+  "residents": [
+    {
+      "name": "Тимофій Боярчук",
+      "owner": true
+    }
+  ],
+  "balance": 7000.8
+},
+{
+  "_id": 151,
+  "residents": [
+    {
+      "name": "Надія Хоменко",
+      "owner": true
+    }
+  ],
+  "balance": -5600.9
+},
+{
+  "_id": 152,
+  "residents": [
+    {
+      "name": "Юлія Левченко",
+      "owner": true
+    }
+  ],
+  "balance": 4300.6
+},
+{
+  "_id": 153,
+  "residents": [
+    {
+      "name": "Олексій Мороз",
+      "owner": true
+    },
+    {
+      "name": "Тетяна Мороз",
+      "owner": false
+    }
+  ],
+  "balance": 3500.5
+},
+{
+  "_id": 154,
+  "residents": [
+    {
+      "name": "Марина Петрусенко",
+      "owner": true
+    }
+  ],
+  "balance": -4400.75
+},
+{
+  "_id": 155,
+  "residents": [
+    {
+      "name": "Ігор Баришников",
+      "owner": true
+    },
+    {
+      "name": "Ольга Баришникова",
+      "owner": false
+    }
+  ],
+  "balance": 4200.3
+},
+{
+  "_id": 156,
+  "residents": [
+    {
+      "name": "Сергій Губенко",
+      "owner": true
+    }
+  ],
+  "balance": 3300.9
+},
+{
+  "_id": 157,
+  "residents": [
+    {
+      "name": "Наталя Лазоренко",
+      "owner": true
+    }
+  ],
+  "balance": -2700.4
+},
+{
+  "_id": 158,
+  "residents": [
+    {
+      "name": "Денис Мельник",
+      "owner": true
+    }
+  ],
+  "balance": 1800.3
+},
+{
+  "_id": 159,
+  "residents": [
+    {
+      "name": "Оксана Соловйова",
+      "owner": true
+    }
+  ],
+  "balance": 2300.5
+},
+{
+  "_id": 160,
+  "residents": [
+    {
+      "name": "Вікторія Мартиненко",
+      "owner": true
+    }
+  ],
+  "balance": 0
+},
+{
+  "_id": 161,
+  "residents": [
+    {
+      "name": "Петро Гончаренко",
+      "owner": true
+    }
+  ],
+  "balance": 2900.75
+},
+{
+  "_id": 162,
+  "residents": [
+    {
+      "name": "Тетяна Ганжула",
+      "owner": true
+    }
+  ],
+  "balance": 2800.1
+},
+{
+  "_id": 163,
+  "residents": [
+    {
+      "name": "Станіслав Гордієнко",
+      "owner": true
+    }
+  ],
+  "balance": -3200.6
+},
+{
+  "_id": 164,
+  "residents": [
+    {
+      "name": "Лариса Бугай",
+      "owner": true
+    }
+  ],
+  "balance": 1500.8
+},
+{
+  "_id": 165,
+  "residents": [
+    {
+      "name": "Роман Турченко",
+      "owner": true
+    }
+  ],
+  "balance": 4600.9
+},
+{
+  "_id": 166,
+  "residents": [
+    {
+      "name": "Ольга Скачкова",
+      "owner": true
+    }
+  ],
+  "balance": -100.25
+},
+{
+  "_id": 167,
+  "residents": [
+    {
+      "name": "Ігор Купріяненко",
+      "owner": true
+    }
+  ],
+  "balance": 2700.6
+},
+{
+  "_id": 168,
+  "residents": [
+    {
+      "name": "Оксана Коротка",
+      "owner": true
+    }
+  ],
+  "balance": 3400.1
+},
+{
+  "_id": 169,
+  "residents": [
+    {
+      "name": "Наталія Хоруженко",
+      "owner": true
+    }
+  ],
+  "balance": 0
+},
+{
+  "_id": 170,
+  "residents": [
+    {
+      "name": "Денис Ткаченко",
+      "owner": true
+    }
+  ],
+  "balance": 1500.8
+},
+{
+  "_id": 171,
+  "residents": [
+    {
+      "name": "Анатолій Лисенко",
+      "owner": true
+    }
+  ],
+  "balance": -2100.9
+},
+{
+  "_id": 172,
+  "residents": [
+    {
+      "name": "Ірина Харченко",
+      "owner": true
+    }
+  ],
+  "balance": 1600.75
+},
+{
+  "_id": 173,
+  "residents": [
+    {
+      "name": "Олена Лозова",
+      "owner": true
+    }
+  ],
+  "balance": 2900.3
+},
+{
+  "_id": 174,
+  "residents": [
+    {
+      "name": "Григорій Власенко",
+      "owner": true
+    }
+  ],
+  "balance": -3300.5
+},
+{
+  "_id": 175,
+  "residents": [
+    {
+      "name": "Ірина Білецька",
+      "owner": true
+    }
+  ],
+  "balance": 4100.2
+},
+{
+  "_id": 176,
+  "residents": [
+    {
+      "name": "Михайло Яценко",
+      "owner": true
+    }
+  ],
+  "balance": -1500
+}]
