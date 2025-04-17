@@ -3,10 +3,11 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  // Разрешаем CORS
+
+  // Разрешаем CORS для dev и production фронта
   app.enableCors({
-    origin: 'http://localhost:3000',
-    methods: ['GET', 'POST', 'PATCH'],
+    origin: ['http://localhost:3000', 'https://baseline-app-rose.vercel.app'],
+    methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     credentials: true,
   });
   app.setGlobalPrefix('api');
