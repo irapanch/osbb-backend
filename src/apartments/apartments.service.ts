@@ -18,8 +18,12 @@ export class ApartmentsService {
   }
 
   async findAll(): Promise<Apartment[]> {
-    const result = await this.apartmentModel.find().exec();
-    console.log('👉 Apartments:', result);
+    const result = await this.apartmentModel
+      .find({}) // вибираємо тільки потрібні поля
+      .lean() // без обгортки Mongoose document
+      .exec();
+
+    console.log('👉 Apartments:', result.length); // краще логати довжину
     return result;
   }
 
