@@ -7,9 +7,22 @@ import { User, UserDocument } from '../schemas/user.schema';
 
 @Injectable()
 export class UsersService {
-  constructor(
+  public constructor(
     @InjectModel(User.name) private readonly userModel: Model<UserDocument>,
   ) {}
+
+  async findById(id: string): Promise<User> {
+    const user = await this.userModel
+      .findById(id)
+      .populate('accounts') // повертає всі поля з об'єкта accounts
+      .exec();
+    if (!user) {
+      throw new NotFoundException(
+        'Користувача не знайдено.Перевірте введені дані',
+      );
+    }
+    return user;
+  }
 
   async create(createUserDto: CreateUserDto): Promise<User> {
     const newUser = new this.userModel(createUserDto);
@@ -23,14 +36,6 @@ export class UsersService {
       .exec();
     console.log('👉 Users:', result.length); // краще логати довжину
     return result;
-  }
-
-  async findOne(id: string): Promise<User> {
-    const user = await this.userModel.findById(id).exec();
-    if (!user) {
-      throw new NotFoundException('Користувача не знайдено');
-    }
-    return user;
   }
 
   async update(id: string, updateUserDto: UpdateUserDto): Promise<User> {

@@ -25,7 +25,5 @@ export class Apartment {
 }
 
 export const ApartmentSchema = SchemaFactory.createForClass(Apartment);
-export const ApartmentSchemaOptions = {
-  timestamps: true, // Додає поля createdAt і updatedAt
-  versionKey: false, // Вимикає версію документа
-};
+ApartmentSchema.set('timestamps', true); // Додає createdAt і updatedAt
+ApartmentSchema.set('versionKey', false); // Вимикає версію документа (__v)
