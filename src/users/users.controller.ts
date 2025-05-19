@@ -10,6 +10,7 @@ import {
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { User } from 'src/schemas/user.schema';
 
 @Controller('users')
 export class UsersController {
@@ -24,10 +25,14 @@ export class UsersController {
   findAll() {
     return this.usersService.findAll();
   }
-
   @Get(':id')
-  findById(@Param('id') id: string) {
+  async getUserById(@Param('id') id: string): Promise<User> {
     return this.usersService.findById(id);
+  }
+
+  @Get('login/:login')
+  async getUserByLogin(@Param('login') login: string): Promise<User> {
+    return this.usersService.findByLogin(login);
   }
 
   @Patch(':id')

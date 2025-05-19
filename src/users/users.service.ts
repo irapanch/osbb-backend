@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
+import { Model, Types } from 'mongoose';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { User, UserDocument } from '../schemas/user.schema';
@@ -11,25 +11,51 @@ export class UsersService {
     @InjectModel(User.name) private readonly userModel: Model<UserDocument>,
   ) {}
 
-  async findById(id: string): Promise<User> {
+  public async findById(id: string): Promise<User> {
     const user = await this.userModel
-      .findById(id)
-      .populate('accounts') // повертає всі поля з об'єкта accounts
+      .findOne({ _id: new Types.ObjectId(id) })
+      // .populate('accounts') // повертає всі поля з об'єкта accounts
+      .exec();
+    if (!user) {
+      throw new NotFoundException(`Користувача з ID ${id} не знайдено`);
+    }
+    return user;
+  }
+  // async findById(id: string): Promise<User> {
+  //   const user = await this.userModel
+  //     .findById(id)
+
+  //     .populate('accounts') // повертає всі поля з об'єкта accounts
+  //     .exec();
+  //   if (!user) {
+  //     throw new NotFoundException(
+  //       'Користувача не знайдено55.Перевірте введені дані',
+  //     );
+  //   }
+  //   return user;
+  // }
+  public async findByLogin(login: string): Promise<User> {
+    if (!login) {
+      throw new Error('Логін не може бути порожнім'); // Додаємо перевірку перед запитом
+    }
+    const user = await this.userModel
+      .findOne({ login })
+      // .populate('accounts') // повертає всі поля з об'єкта accounts
       .exec();
     if (!user) {
       throw new NotFoundException(
-        'Користувача не знайдено.Перевірте введені дані',
+        `Користувача з  логіном ${login} не знайдено`,
       );
     }
     return user;
   }
 
-  async create(createUserDto: CreateUserDto): Promise<User> {
+  public async create(createUserDto: CreateUserDto): Promise<User> {
     const newUser = new this.userModel(createUserDto);
     return newUser.save();
   }
 
-  async findAll(): Promise<User[]> {
+  public async findAll(): Promise<User[]> {
     const result = await this.userModel
       .find({}) // вибираємо тільки потрібні поля
       .lean() // без обгортки Mongoose document
@@ -38,7 +64,7 @@ export class UsersService {
     return result;
   }
 
-  async update(id: string, updateUserDto: UpdateUserDto): Promise<User> {
+  public async update(id: string, updateUserDto: UpdateUserDto): Promise<User> {
     const updatedUser = await this.userModel
       .findByIdAndUpdate(id, updateUserDto, {
         new: true,
@@ -53,7 +79,7 @@ export class UsersService {
     return updatedUser;
   }
 
-  async remove(id: string): Promise<void> {
+  public async remove(id: string): Promise<void> {
     const result = await this.userModel.findByIdAndDelete(id).exec();
     if (!result) {
       throw new NotFoundException('Користувача не знайдено для видалення');

@@ -7,31 +7,32 @@ import { Apartment, ApartmentDocument } from '../schemas/apartment.schema';
 
 @Injectable()
 export class ApartmentsService {
-  constructor(
+  public constructor(
     @InjectModel(Apartment.name)
     private readonly apartmentModel: Model<ApartmentDocument>,
   ) {}
 
-  async create(createApartmentDto: CreateApartmentDto): Promise<Apartment> {
+  public async create(
+    createApartmentDto: CreateApartmentDto,
+  ): Promise<Apartment> {
     const newApartment = new this.apartmentModel(createApartmentDto);
     return newApartment.save();
   }
 
-  async findAll(): Promise<Apartment[]> {
+  public async findAll(): Promise<Apartment[]> {
     const result = await this.apartmentModel
       .find({}) // вибираємо тільки потрібні поля
       .lean() // без обгортки Mongoose document
       .exec();
 
-    console.log('👉 Apartments:', result.length); // краще логати довжину
     return result;
   }
 
-  async findOne(id: number): Promise<Apartment | null> {
+  public async findOne(id: number): Promise<Apartment | null> {
     return this.apartmentModel.findOne({ _id: id }).exec();
   }
 
-  async update(
+  public async update(
     id: number,
     updateApartmentDto: UpdateApartmentDto,
   ): Promise<Apartment | null> {
@@ -40,11 +41,13 @@ export class ApartmentsService {
       .exec();
   }
 
-  async remove(id: number): Promise<Apartment | null> {
+  public async remove(id: number): Promise<Apartment | null> {
     return this.apartmentModel.findOneAndDelete({ _id: id }).exec();
   }
 
-  async createBulk(apartments: CreateApartmentDto[]): Promise<Apartment[]> {
+  public async createBulk(
+    apartments: CreateApartmentDto[],
+  ): Promise<Apartment[]> {
     return this.apartmentModel.insertMany(apartments);
   }
 }

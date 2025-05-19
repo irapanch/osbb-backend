@@ -1,250 +1,35 @@
 [
   {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf002"
-    },
-    "login": "admin",
-    "password": "456",
-    "number": 0
+    "_id": { "$oid": "680744a425dd08014d4cf002" },
+    "login": "117",
+    "password": "117",
+    "number": 117,
+    "role": "admin",
+    "auth_method": "credentials",
+    "accounts": [],
+    "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
   },
   {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf005"
-    },
+    "_id": { "$oid": "680744a425dd08014d4cf005" },
     "login": "123",
     "password": "123",
-    "number": 123
+    "number": 123,
+    "role": "regular",
+    "auth_method": "credentials",
+    "accounts": [],
+    "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
   },
   {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf006"
-    },
+    "_id": { "$oid": "680744a425dd08014d4cf006" },
     "login": "6",
     "password": "6",
-    "number": 6
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf007"
-    },
-    "login": "7",
-    "password": "7",
-    "number": 7
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf009"
-    },
-    "login": "9",
-    "password": "9",
-    "number": 9
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf010"
-    },
-    "login": "10",
-    "password": "10",
-    "number": 10
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf012"
-    },
-    "login": "12",
-    "password": "12",
-    "number": 12
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf013"
-    },
-    "login": "13",
-    "password": "13",
-    "number": 13
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf020"
-    },
-    "login": "20",
-    "password": "20",
-    "number": 20
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf023"
-    },
-    "login": "23",
-    "password": "23",
-    "number": 23
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf003"
-    },
-    "login": "3",
-    "password": "3",
-    "number": 3
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf008"
-    },
-    "login": "8",
-    "password": "8",
-    "number": 8
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf011"
-    },
-    "login": "11",
-    "password": "11",
-    "number": 11
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf016"
-    },
-    "login": "16",
-    "password": "16",
-    "number": 16
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf017"
-    },
-    "login": "17",
-    "password": "17",
-    "number": 17
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf018"
-    },
-    "login": "18",
-    "password": "18",
-    "number": 18
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf025"
-    },
-    "login": "25",
-    "password": "25",
-    "number": 25
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf029"
-    },
-    "login": "29",
-    "password": "29",
-    "number": 29
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf030"
-    },
-    "login": "30",
-    "password": "30",
-    "number": 30
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf004"
-    },
-    "login": "4",
-    "password": "4",
-    "number": 4
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf014"
-    },
-    "login": "14",
-    "password": "14",
-    "number": 14
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf019"
-    },
-    "login": "19",
-    "password": "19",
-    "number": 19
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf021"
-    },
-    "login": "21",
-    "password": "21",
-    "number": 21
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf022"
-    },
-    "login": "22",
-    "password": "22",
-    "number": 22
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf024"
-    },
-    "login": "24",
-    "password": "24",
-    "number": 24
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf026"
-    },
-    "login": "26",
-    "password": "26",
-    "number": 26
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf027"
-    },
-    "login": "27",
-    "password": "27",
-    "number": 27
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf0e4"
-    },
-    "login": "admin",
-    "password": "456",
-    "number": 0
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf001"
-    },
-    "login": "1",
-    "password": "1",
-    "number": 1
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf015"
-    },
-    "login": "15",
-    "password": "15",
-    "number": 15
-  },
-  {
-    "_id": {
-      "$oid": "680744a425dd08014d4cf028"
-    },
-    "login": "28",
-    "password": "28",
-    "number": 28
+    "number": 6,
+    "role": "regular",
+    "auth_method": "credentials",
+    "accounts": [],
+    "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
   }
 ]
