@@ -19,11 +19,13 @@ export type UserDocument = User & Document;
 }) // Вказуємо назву колекції
 export class User {
   @Prop({ type: Types.ObjectId, auto: true })
-  _id?: Types.ObjectId;
+  // _id?: Types.ObjectId;
   @Expose()
   get id(): string {
     return this._id?.toString() ?? '';
   }
+  // доступ до _id через this._id — оголошуємо як приховане поле
+  _id?: Types.ObjectId;
 
   @Prop({ required: true })
   login: string;

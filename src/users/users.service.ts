@@ -21,19 +21,7 @@ export class UsersService {
     }
     return user;
   }
-  // async findById(id: string): Promise<User> {
-  //   const user = await this.userModel
-  //     .findById(id)
 
-  //     .populate('accounts') // повертає всі поля з об'єкта accounts
-  //     .exec();
-  //   if (!user) {
-  //     throw new NotFoundException(
-  //       'Користувача не знайдено55.Перевірте введені дані',
-  //     );
-  //   }
-  //   return user;
-  // }
   public async findByLogin(login: string): Promise<User> {
     if (!login) {
       throw new Error('Логін не може бути порожнім'); // Додаємо перевірку перед запитом
@@ -52,7 +40,7 @@ export class UsersService {
 
   public async create(createUserDto: CreateUserDto): Promise<User> {
     const newUser = new this.userModel(createUserDto);
-    return newUser.save();
+    return newUser.save(); // зберігаємо юзера в MongoDB
   }
 
   public async findAll(): Promise<User[]> {
@@ -67,9 +55,10 @@ export class UsersService {
   public async update(id: string, updateUserDto: UpdateUserDto): Promise<User> {
     const updatedUser = await this.userModel
       .findByIdAndUpdate(id, updateUserDto, {
-        new: true,
-        runValidators: true,
+        new: true, // повертає вже оновлений документ
+        runValidators: true, // перевірка схемою
       })
+      // .populate('accounts') // повертає всі поля з об'єкта accounts
       .exec();
 
     if (!updatedUser) {
@@ -79,10 +68,18 @@ export class UsersService {
     return updatedUser;
   }
 
-  public async remove(id: string): Promise<void> {
+  async remove(id: string): Promise<{ message: string }> {
     const result = await this.userModel.findByIdAndDelete(id).exec();
     if (!result) {
       throw new NotFoundException('Користувача не знайдено для видалення');
     }
+    return { message: 'Користувача успішно видалено' };
   }
+
+  // public async remove(id: string): Promise<void> {
+  //   const result = await this.userModel.findByIdAndDelete(id).exec();
+  //   if (!result) {
+  //     throw new NotFoundException('Користувача не знайдено для видалення');
+  //   }
+  // }
 }
