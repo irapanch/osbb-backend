@@ -31,8 +31,8 @@ export class UsersController {
   }
 
   @Get('login/:login')
-  async getUserByLogin(@Param('login') login: string): Promise<User> {
-    return this.usersService.findByLogin(login);
+  async getUserByLogin(@Param('login') login: string): Promise<User | null> {
+    return this.usersService.findByLogin(login, false);
   }
 
   @Patch(':id')

@@ -22,7 +22,10 @@ export class UsersService {
     return user;
   }
 
-  public async findByLogin(login: string): Promise<User> {
+  public async findByLogin(
+    login: string,
+    throwIfNotFound = true,
+  ): Promise<User | null> {
     if (!login) {
       throw new Error('Логін не може бути порожнім'); // Додаємо перевірку перед запитом
     }
@@ -30,12 +33,12 @@ export class UsersService {
       .findOne({ login })
       // .populate('accounts') // повертає всі поля з об'єкта accounts
       .exec();
-    if (!user) {
+    if (!user && throwIfNotFound) {
       throw new NotFoundException(
         `Користувача з  логіном ${login} не знайдено`,
       );
     }
-    return user;
+    return user; // або null, якщо не знайдено
   }
 
   public async create(createUserDto: CreateUserDto): Promise<User> {
