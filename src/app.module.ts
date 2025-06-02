@@ -6,6 +6,7 @@ import { UsersModule } from './users/users.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 import { IS_DEV_ENV } from './libs/common/utils/is-dev.util';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { IS_DEV_ENV } from './libs/common/utils/is-dev.util';
     }),
     ApartmentsModule,
     UsersModule,
+    AuthModule,
   ],
 })
 export class AppModule {}

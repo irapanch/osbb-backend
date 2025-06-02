@@ -7,6 +7,8 @@ import IORedis from 'ioredis';
 import { RedisStore } from 'connect-redis';
 
 import * as session from 'express-session';
+// import session from 'express-session';
+
 import { ms, StringValue } from './libs/common/utils/ms.util';
 import { parseBoolean } from './libs/common/utils/parse-boolean.util';
 
@@ -42,6 +44,7 @@ async function bootstrap() {
         sameSite: 'lax', // Cookie не надсилається у більшості крос-доменних POST-запитів, але надсилається при GET-запитах, як відкриття посилання чи переходу.
       },
       store: new RedisStore({
+        // зберігання сесій в Redis
         client: redis,
         prefix: config.getOrThrow<string>('SESSION_FOLDER'), // папка, де будуть зберігатися наші сессії, префікс для ключів Redis
       }),
