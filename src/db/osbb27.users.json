@@ -1,35 +1,38 @@
 [
   {
     "_id": { "$oid": "680744a425dd08014d4cf002" },
-    "login": "117",
-    "password": "117",
+    "login": "+380931234567",
+    "password": "483920",
     "number": 117,
     "role": "admin",
     "auth_method": "credentials",
     "accounts": [],
     "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
-    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "name": "Олександр"
   },
   {
     "_id": { "$oid": "680744a425dd08014d4cf005" },
-    "login": "123",
-    "password": "123",
+    "login": "+380671112233",
+    "password": "195327",
     "number": 123,
     "role": "regular",
     "auth_method": "credentials",
     "accounts": [],
     "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
-    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "name": "Ірина"
   },
   {
     "_id": { "$oid": "680744a425dd08014d4cf006" },
-    "login": "6",
-    "password": "6",
+    "login": "+380503456789",
+    "password": "604871",
     "number": 6,
     "role": "regular",
     "auth_method": "credentials",
     "accounts": [],
     "created_at": { "$date": "2025-05-19T00:00:00.000Z" },
-    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" }
+    "updated_at": { "$date": "2025-05-19T00:00:00.000Z" },
+    "name": "Максим"
   }
 ]

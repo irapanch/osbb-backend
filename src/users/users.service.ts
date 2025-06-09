@@ -1,9 +1,10 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model, Types } from 'mongoose';
+import { Model, Query, Types } from 'mongoose';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { User, UserDocument } from '../schemas/user.schema';
+import { hash } from 'argon2';
 
 @Injectable()
 export class UsersService {
@@ -25,14 +26,18 @@ export class UsersService {
   public async findByLogin(
     login: string,
     throwIfNotFound = true,
+    includePassword = false,
   ): Promise<User | null> {
     if (!login) {
       throw new Error('Логін не може бути порожнім'); // Додаємо перевірку перед запитом
     }
-    const user = await this.userModel
-      .findOne({ login })
-      // .populate('accounts') // повертає всі поля з об'єкта accounts
-      .exec();
+    const query = this.userModel.findOne({ login });
+    // .populate('accounts') // повертає всі поля з об'єкта accounts
+    // .exec();
+    if (includePassword) {
+      query.select('+password'); // 👈 Додаємо поле password вручну
+    }
+    const user = await query.exec();
     if (!user && throwIfNotFound) {
       throw new NotFoundException(
         `Користувача з  логіном ${login} не знайдено`,
@@ -42,7 +47,11 @@ export class UsersService {
   }
 
   public async create(createUserDto: CreateUserDto): Promise<User> {
-    const newUser = new this.userModel(createUserDto);
+    const hashedPassword = await hash(createUserDto.password);
+    const newUser = new this.userModel({
+      ...createUserDto,
+      password: hashedPassword, // хешуємо пароль перед збереженням
+    });
     return newUser.save(); // зберігаємо юзера в MongoDB
   }
 

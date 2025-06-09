@@ -6,6 +6,7 @@ import {
   IsString,
   Matches,
   Max,
+  MaxLength,
   Min,
   MinLength,
   Validate,
@@ -29,23 +30,35 @@ export class RegisterDto {
   @Max(176, { message: 'Ведіть номер Вашої квартири: від 1 до 176' })
   number: number;
 
+  @IsString({ message: "Вкажіть Ваше ім'я" })
+  @IsNotEmpty({
+    message: "Вкажіть Ваше ім'я. Поле не може бути порожнім",
+  })
+  @MaxLength(20, {
+    message: 'Поле має містити не більше 20 символів',
+  })
+  userName: string;
+
   @IsString()
-  @IsNotEmpty({ message: 'Вкажіть пароль Поле не може бути порожнім' })
+  @IsNotEmpty({ message: 'Вкажіть пароль. Поле не може бути порожнім' })
   password: string;
   @MinLength(6, {
     message:
       'Пароль має містити не менше 6 символів. Потурбуйтесь про безпечний пароль!',
+  })
+  @MaxLength(20, {
+    message: 'Пароль має містити не більше 20 символів',
   })
   @Validate(IsPasswordsMatchingConstraint, {
     message: 'Паролі не співпадають',
   })
   confirmPassword: string;
 
-  //   @IsEnum(UserRole)
-  //   @IsOptional()
-  //   role?: UserRole = UserRole.REGULAR;
+  @IsEnum(UserRole, { message: 'Недопустима роль користувача' })
+  @IsOptional()
+  role?: UserRole = UserRole.REGULAR;
 
-  //   @IsEnum(AuthMethod)
-  //   @IsOptional()
-  //   auth_method?: AuthMethod = AuthMethod.CREDENTIALS;
+  @IsEnum(AuthMethod, { message: 'Невірний метод авторизації' })
+  @IsOptional()
+  auth_method?: AuthMethod = AuthMethod.CREDENTIALS;
 }

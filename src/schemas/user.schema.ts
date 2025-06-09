@@ -28,9 +28,12 @@ export class User {
   _id?: Types.ObjectId;
 
   @Prop({ required: true })
-  login: string;
+  userName: string;
 
   @Prop({ required: true })
+  login: string;
+
+  @Prop({ required: true, select: false })
   password: string;
 
   @Prop({ type: Number, required: true })

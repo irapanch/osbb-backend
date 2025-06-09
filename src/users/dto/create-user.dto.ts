@@ -12,6 +12,10 @@ import { AuthMethod, UserRole } from 'src/schemas/user.schema';
 export class CreateUserDto {
   @IsString()
   @IsNotEmpty()
+  userName: string;
+
+  @IsString()
+  @IsNotEmpty()
   login: string;
 
   @IsString()
